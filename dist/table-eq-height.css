@@ -1,0 +1,6 @@
+/*table-eq-height Start*/
+.table-eq-height > * {
+  display: table-cell;
+}
+
+/*table-eq-height End*/

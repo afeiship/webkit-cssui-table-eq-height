@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>table-eq-height</title>
+  <link rel="stylesheet" href="../../dist/table-eq-height.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container>div:nth-child(1){
+      background: pink;
+    }
+    .container>div:nth-child(2){
+      background: cyan;
+    }
+    .container>div:nth-child(3){
+      background: gray;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container table-eq-height">
+    <div>
+      col1 <br>
+      so <br>
+      many <br>
+      content <br>
+    </div>
+    <div>col2</div>
+    <div>col3</div>
+  </div>
+
+</body>
+</html>
